@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DonateBlood</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyC8bU/D5z9L4AC72d1FQBAW/8hL4xqB9L" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital@0;1&family=Varela&family=Varela+Round&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color:rgba(114, 15, 136, 0.8); /* Purple with transparency */
+      color:whitesmoke;
+    }
+    .navbar-brand {
+      font-size: 24px;
+      color: whitesmoke;
+    }
+    .navbar-nav a {
+      color: white;
+    }
+    .navbar-nav a:hover {
+      color: whitesmoke;
+    }
+    .content{
+      background-image: url("wallpaperflare.com_wallpaper.jpg");
+      height: 100vh;
+      width: 100%;
+      background-size: cover; 
+      background-position: center; 
+      background-attachment:fixed;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    
+  .gradient-custom {
+    background-image:url("wallpaperflare.com_wallpaper.jpg");
+    height: 100vh;
+      width: 100%;
+      background-size: cover; 
+      background-position: center; 
+      background-attachment:fixed;
+    }
+    
+    .content{
+      position: relative;
+      text-align: center;
+      font-size: 60px;
+      color: white;
+      font-weight:bolder;
+    }
+  
+    input{
+      font-size: 20px; 
+    }
+  
+  
+    .bgimg { 
+      background-image: url('wallpaperflare.com_wallpaper.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-attachment:fixed; 
+      height: 100vh;
+      width: 100%;  
+      position: relative; /* Ensure relative positioning for absolute elements */ 
+  } 
+   
+  .imgtext { 
+      position: absolute;  
+      font-size: 100px; 
+      color:azure; 
+      padding-bottom:50px;
+      font-family: 'Josefin Sans', sans-serif; /* Corrected font name */ 
+      top: 80%; /* Adjusted position */ 
+      transform: translate(-50%, -50%);     
+      z-index: 2; 
+  } 
+  .row { 
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 25px; 
+      color: rgb(1, 1, 1); 
+      font-size: large; 
+      padding: 80px; 
+      align-items: center; 
+  } 
+   
+  .container-section { 
+      padding: 3rem 0; 
+  } 
+  
+  .highlight{ 
+      background-color: paleturquoise; 
+      font-size: large; 
+  } 
+
+    .login-container, .signup-container {
+      background-color: white;
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .form-control {
+      border-radius: 20px;
+    }
+    .btn-primary {
+      border-radius: 20px;
+      padding: 10px 24px;
+      background-color: #28a745; 
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #218838; 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">DonateBlood</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto"></ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signin.html">Signup</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="bgimg"> 
+      <center><span class="imgtext">WELCOME TO DONATEBLOOD</span> </center>
+    </div>
+
+    <div class="container content-section"> 
+      <div class="row" style="background-image: url('wallpaperflare.com_wallpaper (2).jpg');background-repeat: no- repeat;background-attachment: fixed;background-size: cover"> 
+        <div class="col-md-6"> 
+          <h2>"Give blood", "Blood donor", and "Blood drive" redirect here. For the TV episode, see The Blood Donor. For other uses, see Give blood (disambiguation) and Blood drive (disambiguation).</h2>
+          Blood donation pictogram
+          Blood donation center at the University Hospital of Basel, Switzerland. From left to right: Two cell separators for apheresis, secluded office for pre-donation blood pressure measurement and blood count, and on the right, chairs for whole blood donations.
+          A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation (separation of whole blood components). Donation may be of whole blood, or of specific components directly (apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.
+          Today in the developed world, most blood donors are unpaid volunteers who donate blood for a community supply. In some countries, established supplies are limited and donors usually give blood when family or friends need a transfusion (directed donation). Many donors donate for several reasons, such as a form of charity, general awareness regarding the demand for blood, increased confidence in oneself, helping a personal friend or relative, and social pressure. Despite the many reasons that people donate, not enough potential donors actively donate. However, this is reversed during disasters when blood donations increase, often creating an excess supply that will have to be later discarded. In countries that allow paid donation some people are paid, and in some cases there are incentives other than money such as paid time off from work. People can also have blood drawn for their own future use (autologous donation). Donating is relatively safe, but some donors have bruising where the needle is inserted or may feel faint.
+          Potential donors are evaluated for anything that might make their blood unsafe to use. The screening includes testing for diseases that can be transmitted by a blood transfusion, including HIV and viral hepatitis. The donor must also answer questions about medical history and take a short physical examination to make sure the donation is not hazardous to their health. How often a donor can donate varies from days to months based on what component they donate and the laws of the country where the donation takes place. For example, in the United States, donors must wait 56 days (eight weeks) between whole-blood donations but only seven days between platelet apheresis donations[1] and twice per seven-day period in plasmapheresis.
+          The amount of blood drawn and the methods vary. The collection can be done manually or with automated equipment that takes only specific components of the blood. Most of the components of blood used for transfusions have a short shelf life, and maintaining a constant supply is a persistent problem. This has led to some increased interest in autotransfusion, whereby a patient's blood is salvaged during surgery for continuous reinfusion—or alternatively, is self-donated prior to when it will be needed. Generally, the notion of donation does not refer to giving to one's self, though in this context it has become somewhat acceptably idiomatic.
+        </div> 
+        <div class="col-md-6"> 
+           
+        </div> 
+      </div> 
+      <hr style="color: rgb(8, 8, 8)"> 
+    </div> 
+
+
+    <div class="container content-section"> 
+      <div class="row" style="background-image: url('wallpaperflare.com_wallpaper (1).jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover"> 
+        <div class="col-md-6"> 
+          
+        </div> 
+        <div class="col-md-6">
+          <h2>Blood testing</h2>  
+            A patient's health screening report given after a blood donation
+            The donor's blood type must be determined if the blood will be used for transfusions. The collecting agency usually identifies whether the blood is type A, B, AB, or O and the donor's Rh (D) type and will screen for antibodies to less common antigens. More testing, including a crossmatch, is usually done before a transfusion. Type O negative is often cited as the "universal donor"[36] but this only refers to red cell and whole blood transfusions. For plasma and platelet transfusions the system is reversed: AB positive is the universal platelet donor type while both AB positive and AB negative are universal plasma donor types.[37][38]
+            Most blood is tested for diseases, including some STDs.[39] The tests used are high-sensitivity screening tests and no actual diagnosis is made. Some of the test results are later found to be false positives using more specific testing.[40] False negatives are rare, but donors are discouraged from using blood donation for the purpose of anonymous STD screening because a false negative could mean a contaminated unit. The blood is usually discarded if these tests are positive, but there are some exceptions, such as autologous donations. The donor is generally notified of the test result.[41]
+            Donated blood is tested by many methods, but the core tests recommended by the World Health Organization are these four:[42]
+            <ul>
+              <li>Hepatitis B surface antigen</li>
+              <li>Antibody to hepatitis C</li>
+              <li>Antibody to HIV, usually subtypes 1 and 2</li>
+              <li>Serologic test for syphilis</li>
+            </ul>
+            The WHO reported in 2006 that 56 out of 124 countries surveyed did not use these basic tests on all blood donations.[12]
+            A variety of other tests for transfusion transmitted infections are often used based on local requirements. Additional testing is expensive, and in some cases the tests are not implemented because of the cost.[43] These additional tests include other infectious diseases such as West Nile fever[44] and babesiosis.[45] Sometimes multiple tests are used for a single disease to cover the limitations of each test. For example, the HIV antibody test will not detect a recently infected donor, so some blood banks use a p24 antigen or HIV nucleic acid test in addition to the basic antibody test to detect infected donors. Cytomegalovirus is a special case in donor testing in that many donors will test positive for it.[46] The virus is not a hazard to a healthy recipient, but it can harm infants[47] and other recipients with weak immune systems.[46] 
+        </div> 
+      </div> 
+      <hr style="color: White"> 
+    </div> 
+
+
+    <div class="container content-section"> 
+      <div class="row" style="background-image: url('wallpaperflare.com_wallpaper (4).jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover"> 
+        <div class="col-md-6"> 
+          <h2>Recovery and time between donations</h2> 
+          Donors are usually kept at the donation site for 10–15 minutes after donating since most adverse reactions take place during or immediately after the donation.[75] Blood centers typically provide light refreshments, such as orange juice and cookies, or a lunch allowance to help the donor recover.[76] The needle site is covered with a bandage and the donor is directed to keep the bandage on for several hours.[50] In hot climates, donors are advised to avoid dehydration (strenuous exercise and games, alcohol) until a few hours after donation.[citation needed]
+          Donated plasma is replaced after 2–3 days.[77] Red blood cells are replaced by bone marrow into the circulatory system at a slower rate, on average 36 days in healthy adult males. In one study, the range was 20 to 59 days for recovery.[78] These replacement rates are the basis of how frequently a donor can donate blood.[citation needed]
+          Plasmapheresis and plateletpheresis donors can donate much more frequently because they do not lose significant amounts of red cells. The exact rate of how often a donor can donate differs from country to country. For example, plasmapheresis donors in the United States are allowed to donate large volumes twice a week and could nominally donate 83 litres (about 22 gallons) in a year, whereas the same donor in Japan may only donate every other week and could only donate about 16 litres (about 4 gallons) in a year.[79]
+          Iron supplementation decreases the rates of donor deferral due to low hemoglobin, both at the first donation visit and at subsequent donations. Iron-supplemented donors have higher hemoglobin and iron stores. On the other hand, iron supplementation frequently causes diarrhea, constipation and epigastric abdominal discomfort. The long-term effects of iron supplementation without measurement of iron stores are unknown.[80]          </div>
+        </div> 
+        <div class="col-md-6"> 
+          
+        </div> 
+      </div> 
+      <hr style="color: White"> 
+    </div> 
+
+
+    <div class="container content-section">
+      <div class="row" style="background-image: url('wallpaperflare.com_wallpaper (4).jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover"> 
+        <div class="col-md-6"> 
+          
+        </div> 
+        <div class="col-md-6"> 
+          <h2>Donor health benefits</h2> 
+          In patients prone to iron overload, blood donation prevents the accumulation of toxic quantities.[121] Donating blood may reduce the risk of heart disease for men, but the link has not been firmly established and may be from selection bias because donors are screened for health problems.[122][123]
+          Research published in 2012 demonstrated that in patients with metabolic syndrome, repeated blood donation is effective in reducing blood pressure, blood glucose, HbA1c, low-density lipoprotein/high-density lipoprotein ratio, and heart rate.[124]
+          A study published in JAMA Network Open tracked PFAS levels in a clinical trial and showed that regular blood or plasma donations resulted in a significant reduction in PFAS levels for the participants.[125]
+        
+        </div> 
+      </div> 
+    </div> 
+  </div>
+</div>
+
+  
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
